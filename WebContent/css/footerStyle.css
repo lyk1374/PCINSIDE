@@ -1,0 +1,63 @@
+.footer {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-top: 1px solid #e6e6e6;
+}
+.info {
+	padding-top: 50px;
+	padding-left: 50px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+}
+.infoContent {
+    display: inline-block;
+    padding-right: 12px;
+    margin-right: 12px;
+    position: relative;
+}
+.infoContent::after {
+    content: '';
+    width: 1px;
+    height: 15px;
+    background: #e6e6e6;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+}
+.infoContent:last-Child::after {
+	content: none;
+}
+.copyright {
+    padding-left: 50px;
+    padding-bottom: 50px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #888;
+    line-height: 28px;
+}
+.tel {
+	width: 250px;
+	height: 70px;
+    position: absolute;
+    right: 230px;
+    top: 30px;
+    right: 40px;
+	color: #004eff;
+}
+.telSupport {
+    font-weight: 600;
+}
+.telNum {
+	font-weight: 600;
+    font-size: 34px;
+    line-height: 48px;
+}
+.time {
+	font-size: 14px;
+    font-weight: 300;
+    color: #555;
+}

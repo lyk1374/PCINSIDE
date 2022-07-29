@@ -1,0 +1,27 @@
+
+.chatWrap{
+	margin: 0 auto;
+	width: 400px;
+}
+textarea {
+	border: 1px solid #ffffff;
+	height: 800px;
+	resize: none;
+	font-size: 16px;
+	font-weight: 800;
+	box-shadow: 5px 5px 10px -2px rgb(0 0 0 / 27%);
+	outline: none;
+}
+.chat{
+	width: 465px;
+	height: 40px;
+	outline: none;
+	box-shadow: 5px 5px 10px -2px rgb(0 0 0 / 27%);
+}
+.chatGo{
+	outline: none;
+	width: 200px;
+	margin-top: 10px;
+	height: 40px;
+	text-align: center;
+}
